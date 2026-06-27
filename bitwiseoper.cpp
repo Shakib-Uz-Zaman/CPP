@@ -15,5 +15,16 @@ int main()
 
     c = a ^ b;
     cout<< c<<endl;
+
+    c =  a>>3;
+    cout<< c<<endl;
+
+
+    c = a<<3;
+    cout<< c;
+
+
+
+
     getch();
 }
